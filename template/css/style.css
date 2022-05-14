@@ -26,22 +26,21 @@ body {
 }
 
 .hero { 
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-image: url('https://raw.githubusercontent.com/SSlavkovsky/hosted-assets/main/hero2.png');
-  background-size: 100%;
-  clip-path: ellipse(1383px 648px at 1083px 46px);
-
+  background-image: url('https://github.com/SSlavkovsky/hosted-assets/IMG_0412.jpg');
+  background-size: cover
+  background-position: center
+  width: 100wh
+  height: 100vh
 }
 
-
-
-.left{
-  display: flex;
-  width: 100%;
-  height: 700px;
+.leftHero {
+  width: 400px
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: auto
 }
+
 .right{
   display: flex;
   width: 100%;
